@@ -1,6 +1,27 @@
+#main{
+    display: flex;
+  justify-content: space-between;
+}
 body{
-    background-color: aquamarine;
+    padding: 25px;
+    margin: 25px;
+}
+h1{
     text-align: center;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.tabla{
+    background-color: burlywood;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+div{
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 5px;
+}
+a{
+    text-decoration: underline brown;
+}
+h2{
+    text-decoration: underline brown;
 }
