@@ -3,10 +3,12 @@
   justify-content: space-between;
 }
 body{
+    background-color: #af3a07;
     padding: 25px;
     margin: 25px;
 }
 h1{
+    color: blanchedalmond;
     text-align: center;
 }
 .tabla{
@@ -21,7 +23,9 @@ div{
 }
 a{
     text-decoration: underline brown;
+    color: blanchedalmond;
 }
 h2{
     text-decoration: underline brown;
+    color: blanchedalmond;
 }
