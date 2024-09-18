@@ -24,7 +24,13 @@ button{
     height: 50px;
 }
 #display{
+    margin-right: 10px;
     padding: 5px;
     width: 475px;
     border-radius: 10px;
+    text-align: right;
+}
+button:hover{
+    background-color: blue;
+    color: wheat;
 }
