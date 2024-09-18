@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sofadi+One&display=swap');
+body{
+    text-align: center;
+    background-color: indianred;
+    color: blue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 3px 3px 3px rgb(227, 12, 12);
+}
+#content{
+    border: 2px solid blue;
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px 3px rgb(227, 12, 12);
+}
+button{
+    background-color: lightblue;
+    color: grey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+#display{
+    padding: 5px;
+    width: 475px;
+    border-radius: 10px;
+}
