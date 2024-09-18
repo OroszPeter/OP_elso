@@ -1,31 +1,36 @@
-#main{
-    display: flex;
-  justify-content: space-between;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Sofadi+One&display=swap');
 body{
-    background-color: #af3a07;
-    padding: 25px;
-    margin: 25px;
-}
-h1{
-    color: blanchedalmond;
     text-align: center;
+    background-color: indianred;
+    color: blue;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-shadow: 3px 3px 3px rgb(227, 12, 12);
 }
-.tabla{
-    background-color: burlywood;
-    border: 1px solid black;
-    border-radius: 25px;
+#content{
+    border: 2px solid blue;
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: lightsteelblue;
+    box-shadow: 3px 3px 3px rgb(227, 12, 12);
 }
-div{
-    padding-left: 125px;
-    padding-right: 125px;
-    padding-bottom: 5px;
+button{
+    background-color: lightblue;
+    color: grey;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
-a{
-    text-decoration: underline brown;
-    color: blanchedalmond;
+#display{
+    margin-right: 10px;
+    padding: 5px;
+    width: 475px;
+    border-radius: 10px;
+    text-align: right;
 }
-h2{
-    text-decoration: underline brown;
-    color: blanchedalmond;
+button:hover{
+    background-color: blue;
+    color: wheat;
 }
